@@ -66,20 +66,6 @@ const App = () => {
             </h1>
          </div> */}
 
-         {/* <div className="city">
-            <h1>Air Quality pm10</h1>
-            <h1 >
-               {airQuality.hourly.pm10[0]}
-               <sup>μg/m³</sup>
-            </h1>
-
-            <h1>Air Quality pm2.5</h1>
-            <h1 >
-               {airQuality.hourly.pm2_5[0]}
-               <sup>μg/m³</sup>
-            </h1>
-         </div> */}
-
          <BodyForecast></BodyForecast>
       </ThemeProvider>
 
